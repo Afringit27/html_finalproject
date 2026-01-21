@@ -1,0 +1,69 @@
+/* Body */
+body {
+  background-image: linear-gradient(
+    to top,
+    #c7e95e,
+    #4fe498,
+    #00d4d3,
+    #00bcf0,
+    #689de3
+  );
+  font-family: Arial, sans-serif;
+}
+
+/* Main heading */
+#main-heading {
+  background-color: rgb(4, 72, 43);
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 10px;
+  -webkit-text-stroke: 1px white;
+}
+
+/* Section headings */
+.section-heading {
+  color: #333333;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* Song titles */
+.song-title {
+  color: #0066cc;
+  font-size: 18px;
+}
+
+/* Movie titles */
+.movie-title {
+  color: #990000;
+  font-size: 20px;
+}
+
+/* Description */
+.description {
+  color: #444444;
+  font-size: 16px;
+  font-family: Georgia, serif;
+}
+
+/* Common media styling */
+.media {
+  border-radius: 100px;
+  box-shadow: 4px 10px 10px rgb(72, 188, 149);
+}
+
+/* Image */
+.image-box {
+  border-radius: 15px;
+}
+
+/* Video */
+.video-box {
+  border-radius: 15px;
+}
+
+/* Audio */
+.audio-box {
+  border-radius: 30px;
+}

@@ -1,0 +1,187 @@
+/* ===== Google Fonts Import ===== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+/* ===== Universal Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Body Background ===== */
+body {
+  background: linear-gradient(135deg, #141e30 0%, #243b55 100%);
+  color: #ecf0f1;
+
+  padding: 20px;
+}
+/* ===== Gradient Text for All Headings ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background: linear-gradient(135deg, #ffd700, #f39c12, #ff8c00);
+  background-clip: text; /* STANDARD */
+  -webkit-background-clip: text; /* CHROME / EDGE */
+  color: transparent; /* IMPORTANT */
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  padding: 40px;
+
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+  text-align: center; /* ⭐ THIS CENTERS IMAGE & VIDEO */
+}
+
+/* ===== Main Heading ===== */
+#main-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ffd700;
+}
+.section-heading,
+.song-title,
+.movie-title {
+  background: linear-gradient(135deg, #ffd700, #f39c12, #ff8c00);
+  -webkit-background-clip: text;
+}
+
+/* ===== Section Headings ===== */
+.section-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffd700;
+  margin: 40px 0 20px;
+  padding: 15px;
+  background: rgba(255, 215, 0, 0.1);
+  border-left: 5px solid #ffd700;
+  border-radius: 0 10px 10px 0;
+}
+
+/* ===== Song & Description Paragraph ===== */
+
+.song-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f39c12;
+  margin: 25px 0 15px;
+  padding-left: 10px;
+  border-left: 3px solid #f39c12;
+}
+.description {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f39c12;
+  margin: 25px 0 15px;
+  padding-left: 10px;
+  border-left: 3px solid #f39c12;
+}
+
+.movie-title {
+  background: linear-gradient(
+    135deg,
+    rgba(150, 223, 116, 0.15) 0%,
+    rgba(143, 98, 27, 0.1) 100%
+  );
+  color: #ffd700;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border-left: 4px solid #ffd700;
+}
+
+/* ===== Media Common Styling (GROUP SELECTOR) ===== */
+.media {
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 215, 0, 0.2);
+}
+
+.media {
+  box-shadow: 0 12px 35px rgba(117, 222, 134, 0.3);
+}
+
+/* ===== Audio Box ===== */
+.audio-box {
+  width: 85%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+
+/* ===== Image Box ===== */
+.image-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  max-width: 100%;
+  border: 3px solid #ffd700;
+  object-fit: cover;
+}
+
+/* ===== Video Box ===== */
+.video-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  max-width: 100%;
+  border: 3px solid #ffd700;
+}
+
+/* ===== Normal Paragraphs ===== */
+p {
+  margin: 20px 0 30px;
+
+  font-size: 15px;
+  color: #bdc3c7;
+}
+
+/* ===== Highlighted Text ===== */
+mark {
+  background: linear-gradient(135deg, #ffd700 0%, #f39c12 100%);
+  color: #1a1a2e;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* ===== Deleted & Inserted Text (GROUP SELECTOR) ===== */
+del {
+  color: #e74c3c;
+}
+
+ins {
+  text-decoration: none;
+  color: #2ecc71;
+  font-weight: 700;
+}
+
+/* ===== Strong Text ===== */
+strong {
+  color: #ffd700;
+}
+
+/* ===== Abbreviation ===== */
+abbr {
+  color: #3498db;
+
+  border-bottom: 1px dotted #3498db;
+}
